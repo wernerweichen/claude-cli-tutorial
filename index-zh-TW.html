@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude CLI 教學指南</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/moon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
+  <style>
+    .reveal pre code { max-height: 480px; font-size: 0.85em; }
+    .reveal table { font-size: 0.75em; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="slides/zh-TW/00-intro.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/01-cli-vs-others.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/02-commands.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/03-md-files.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/04-mcp-skills.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/05-workflow.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+      <section data-markdown="slides/zh-TW/06-superpowers.md"
+               data-separator="^\n---\n"
+               data-separator-notes="^Note:"></section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      progress: true,
+      slideNumber: 'c/t',
+      transition: 'slide',
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+</html>
