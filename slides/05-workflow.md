@@ -53,7 +53,7 @@ Hooks let you **run shell commands automatically** at specific points in Claude'
         "hooks": [
           {
             "type": "command",
-            "command": "npx eslint --fix \"$CLAUDE_TOOL_RESULT_FILE_PATH\" 2>/dev/null || true"
+            "command": "npm run lint --silent 2>/dev/null || true"
           }
         ]
       }
@@ -62,7 +62,7 @@ Hooks let you **run shell commands automatically** at specific points in Claude'
 }
 ```
 
-Claude edits a file → ESLint fixes it automatically → next time Claude reads the file, it sees clean code.
+Claude edits a file → ESLint runs automatically → next time Claude reads the file, it sees clean code.
 
 ---
 
