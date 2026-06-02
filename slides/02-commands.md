@@ -140,10 +140,10 @@ Configure per-tool permissions in `.claude/settings.json`:
 # Resume the last session
 claude --continue
 
-# List recent sessions
-claude --list-sessions
+# Resume with an interactive session picker
+claude --resume
 
-# Resume a specific session
+# Resume a specific session by ID
 claude --resume <session-id>
 ```
 
