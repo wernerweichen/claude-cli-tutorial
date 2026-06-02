@@ -2,7 +2,7 @@
 
 A 30-minute Reveal.js presentation on GitHub Pages teaching Claude CLI to developers with basic AI agent experience.
 
-**Live site:** https://<your-github-username>.github.io/claude-cli-tutorial/
+**Live site:** https://wernerweiche.github.io/claude-cli-tutorial/
 
 ## Topics
 
